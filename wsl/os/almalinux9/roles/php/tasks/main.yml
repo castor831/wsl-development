@@ -1,6 +1,6 @@
 ---
 - name: Install PHP 8.3
-  command: dnf module install php:remi-8.3 -y
+  command: dnf module install php:remi-8.1 -y
 - name: Enable and start PHP 8.3
   command: systemctl enable --now php-fpm
 - name: Create PHP info file
